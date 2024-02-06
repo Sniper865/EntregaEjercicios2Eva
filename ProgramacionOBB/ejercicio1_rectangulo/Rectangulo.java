@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicio1_rectangulo;
 
 public class Rectangulo {
     private int base, altura;

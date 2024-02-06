@@ -1,4 +1,4 @@
-package ejercicio2;
+package ejercicio2_fecha;
 
 public class Fecha {
     private int dia, mes, anno;

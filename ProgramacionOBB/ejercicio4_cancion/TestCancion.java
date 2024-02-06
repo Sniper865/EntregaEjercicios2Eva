@@ -1,4 +1,4 @@
-package ejercicio4;
+package ejercicio4_cancion;
 
 import java.util.Scanner;
 

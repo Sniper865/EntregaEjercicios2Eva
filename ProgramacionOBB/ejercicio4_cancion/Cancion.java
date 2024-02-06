@@ -1,4 +1,4 @@
-package ejercicio4;
+package ejercicio4_cancion;
 
 public class Cancion {
     private String titulo, autor;

@@ -1,4 +1,4 @@
-package ejercicio3;
+package ejercicio3_tiempo;
 
 public class Tiempo {
     private int minutos,segundos,horas;
