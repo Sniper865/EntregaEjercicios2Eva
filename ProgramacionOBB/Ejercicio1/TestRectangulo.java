@@ -1,5 +1,7 @@
-package Ejercicio1;
+package ejercicio1;
+
 import java.util.*;
+
 public class TestRectangulo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

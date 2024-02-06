@@ -1,5 +1,7 @@
-package Ejercicio2;
+package ejercicio2;
+
 import java.util.Scanner;
+
 public class TestFecha {
     
     public static void main(String[] args) {
