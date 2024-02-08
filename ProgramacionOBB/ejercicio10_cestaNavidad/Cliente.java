@@ -1,4 +1,4 @@
-package programacion.cestaNavidad;
+package ejercicio10_cestaNavidad;
 public class Cliente {
     private String nombre,DNI,puesto;
     public Cliente(String nombre, String DNI, String puesto ){

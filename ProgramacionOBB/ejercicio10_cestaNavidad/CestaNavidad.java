@@ -1,4 +1,4 @@
-package programacion.cestaNavidad;
+package ejercicio10_cestaNavidad;
 
 import java.util.ArrayList;
 
