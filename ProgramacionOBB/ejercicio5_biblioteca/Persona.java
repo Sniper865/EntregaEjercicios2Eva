@@ -1,4 +1,4 @@
-package ejericio5_biblioteca;
+package ejercicio5_biblioteca;
 
 public class Persona {
     private String nombre, apellido1, apellido2;

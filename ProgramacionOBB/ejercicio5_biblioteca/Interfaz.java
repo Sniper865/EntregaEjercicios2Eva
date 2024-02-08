@@ -1,4 +1,4 @@
-package ejericio5_biblioteca;
+package ejercicio5_biblioteca;
 
 import java.util.Scanner;
 
