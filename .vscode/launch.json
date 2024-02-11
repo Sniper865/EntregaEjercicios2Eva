@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestArrayListCliente",
+            "request": "launch",
+            "mainClass": "EjerciciosArrays.ArrayList.TestArrayListCliente",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestMastermind",
+            "request": "launch",
+            "mainClass": "EjerciciosArrays.Mastermind.TestMastermind",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestTresEnRaya",
+            "request": "launch",
+            "mainClass": "EjerciciosArrays.TresEnRaya.TestTresEnRaya",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "ej1_visualizar",
+            "request": "launch",
+            "mainClass": "EjerciciosMatriz.ej1_visualizar",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "ej2_mostrar",
+            "request": "launch",
+            "mainClass": "EjerciciosMatriz.ej2_mostrar",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "ej3_mostrarRellenar",
+            "request": "launch",
+            "mainClass": "EjerciciosMatriz.ej3_mostrarRellenar",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "ej4_mostrarRellenar",
+            "request": "launch",
+            "mainClass": "EjerciciosMatriz.ej4_mostrarRellenar",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "ejercicioWrappers",
+            "request": "launch",
+            "mainClass": "OtrosEjercicios.ejercicioWrappers",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "ejercicio10_cestaNavidad.Test",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "Main_HerenciasPolimorfismoFiguras",
+            "request": "launch",
+            "mainClass": "ejercicio11_figurasGeometricas.Main_HerenciasPolimorfismoFiguras",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestRectangulo",
+            "request": "launch",
+            "mainClass": "ejercicio1_rectangulo.TestRectangulo",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestFecha",
+            "request": "launch",
+            "mainClass": "ejercicio2_fecha.TestFecha",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestTiempo",
+            "request": "launch",
+            "mainClass": "ejercicio3_tiempo.TestTiempo",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestCancion",
+            "request": "launch",
+            "mainClass": "ejercicio4_cancion.TestCancion",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestLibro$PruebaLibro",
+            "request": "launch",
+            "mainClass": "ejercicio5_biblioteca.TestLibro$PruebaLibro",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestPajaro",
+            "request": "launch",
+            "mainClass": "ejercicio6_static.TestPajaro",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "PeliculaDosTest",
+            "request": "launch",
+            "mainClass": "ejercicio7_director.PeliculaDosTest",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "PeliculaUnoTest",
+            "request": "launch",
+            "mainClass": "ejercicio7_director.PeliculaUnoTest",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestCancion(1)",
+            "request": "launch",
+            "mainClass": "ejercicio8_cancion.TestCancion",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestContador",
+            "request": "launch",
+            "mainClass": "ejercicio9_contador.TestContador",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestHerencia",
+            "request": "launch",
+            "mainClass": "herencia.TestHerencia",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        },
+        {
+            "type": "java",
+            "name": "TestCoche",
+            "request": "launch",
+            "mainClass": "test_coche.TestCoche",
+            "projectName": "EntregaEjercicios2Eva_c99197b3"
+        }
+    ]
+}

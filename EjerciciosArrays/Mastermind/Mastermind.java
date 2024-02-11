@@ -1,4 +1,4 @@
-package EjerciciosArrays.Mastermind;
+package Mastermind;
 
 import java.util.*;
 public class Mastermind {

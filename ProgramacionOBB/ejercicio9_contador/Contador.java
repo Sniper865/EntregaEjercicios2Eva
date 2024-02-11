@@ -1,75 +1,76 @@
 package ejercicio9_contador;
 
 public class Contador {
-    public int horas,minutos,segundos,incremento;
-    public Contador(int horas, int minutos, int segundos){
+    public int horas, minutos, segundos;
+
+    public Contador(int horas, int minutos, int segundos) {
         this.horas = horas;
         this.minutos = minutos;
         this.segundos = segundos;
     }
 
     //horas
-    public void setHoras(int horas){
+    public void setHoras(int horas) {
         this.horas = horas;
     }
-    public int getHoras(){
+
+    public int getHoras() {
         return horas;
     }
 
     //minutos
-    public void setMinutos(int minutos){
+    public void setMinutos(int minutos) {
         this.minutos = minutos;
     }
-    public int getMinutos(){
+
+    public int getMinutos() {
         return minutos;
     }
 
     //segundos
-    public void setSegundos(int segundos){
+    public void setSegundos(int segundos) {
         this.segundos = segundos;
     }
-    public int getSegundos(){
+
+    public int getSegundos() {
         return segundos;
     }
 
-    public String toString() {
-        return getHoras()+":"+getMinutos()+":"+getSegundos();
-    }
-
-    //conversor de tiempo
-    public int segundosMinutos(int minutos){
-        while (this.segundos > 59){
-            this.segundos = this.segundos - 60;
-            minutos = minutos + 1;
-        }
-        return minutos;
-    }
-
-    public int minutosHoras(int horas){
-        while (this.minutos > 59){
-            this.minutos = this.minutos - 60;
-            horas = horas + 1;
-        }
-        return horas;
-    }
-
     //aumento de contador
-    public int incrementarSegundos(int incremento){
+    public void incrementarSegundos(int incremento) {
         this.segundos = this.segundos + incremento;
-        return this.segundos;
+        while (this.segundos >= 60) {
+            this.segundos -= 60;
+            this.minutos++;
+        }
     }
-    public int incrementarMinutos(int incremento){
+
+    public void incrementarMinutos(int incremento) {
         this.minutos = this.minutos + incremento;
-        return this.minutos;
+        while (this.minutos >= 60) {
+            this.minutos -= 60;
+            this.horas++;
+        }
     }
 
     //decremento de contador
-    public int decrementarSegundos(int incremento){
-        this.segundos = this.segundos - incremento;
-        return this.segundos;
+    public void decrementarSegundos(int decremento) {
+        this.segundos = this.segundos - decremento;
+        while (this.segundos < 0) {
+            this.segundos += 60;
+            this.minutos--;
+        }
     }
-    public int decrementarMinutos(int incremento){
-        this.minutos = this.minutos + incremento;
-        return this.minutos;
+
+    public void decrementarMinutos(int decremento) {
+        this.minutos = this.minutos - decremento;
+        while (this.minutos < 0) {
+            this.minutos += 60;
+            this.horas--;
+        }
+    }
+
+    public String toString() {
+        return getHoras() + ":" + getMinutos() + ":" + getSegundos();
     }
 }

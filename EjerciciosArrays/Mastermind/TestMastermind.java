@@ -1,4 +1,4 @@
-package EjerciciosArrays.Mastermind;
+package Mastermind;
 public class TestMastermind {
     public static void main(String[] args) {
         boolean victory = false;

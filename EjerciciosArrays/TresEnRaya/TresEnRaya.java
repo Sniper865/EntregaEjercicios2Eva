@@ -1,4 +1,4 @@
-package EjerciciosArrays.TresEnRaya;
+package TresEnRaya;
 
 import java.util.*;
 

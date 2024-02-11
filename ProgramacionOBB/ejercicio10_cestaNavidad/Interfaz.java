@@ -29,7 +29,6 @@ public class Interfaz {
             switch(eleccion){
                 case 1:
                     System.out.println("Añadir una nueva cesta");
-                    cestas.add(CestaNavidad);
                     break;
                 case 2:
 
